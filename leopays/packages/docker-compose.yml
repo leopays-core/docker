@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  ubuntu:
+    build:
+      context: .
+      dockerfile: ./ubuntu-18.04-unpinned.dockerfile
+    command: cp -r /leopays/build/packages /tmp
+    volumes:
+      - ./data/deb:/tmp/packages
