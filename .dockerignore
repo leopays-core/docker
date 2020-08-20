@@ -1,0 +1,12 @@
+data
+docker
+Dockerfile*
+docker-compose*
+.dockerignore
+.DS_Store
+.editorconfig
+.git
+.gitignore
+.env
+README.md
+LICENSE

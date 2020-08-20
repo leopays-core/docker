@@ -1,0 +1,14 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+*.tgz
+.env
+.DS_Store
+data/
